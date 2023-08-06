@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ccc;
+  background: #445069;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,12 +17,13 @@ body {
   width: 560px;
   padding: 20px;
   border-radius: 6px;
-  background: #fff;
+  background: #F7E987;
 }
 
 h3 {
   display: flex;
   justify-content: center;
+  color: #252B48;
 }
 
 .buttonDiv {
@@ -51,5 +52,5 @@ button {
 }
 
 .marked {
-  background-color: greenyellow
+  background-color: #5B9A8B;
 }

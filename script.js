@@ -12,7 +12,6 @@ const studentsArray = [
     { no: 10, name: 'Melissa', surname: 'Gimley' }
 ]
 
-
 const orderedList = document.getElementById('students')
 
 studentsArray.forEach((item, i) => {
@@ -22,11 +21,12 @@ studentsArray.forEach((item, i) => {
 let randomNumber = null
 
 function chooseItem() {
+
     if (randomNumber !== null) {
         const person = document.getElementById(`${randomNumber}`)
         person.classList.remove('marked')
-
     }
+
     randomNumber = Math.floor(Math.random() * 10)
     const person = document.getElementById(`${randomNumber}`)
     console.log(randomNumber)
